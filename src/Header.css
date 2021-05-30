@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* this makes it looks spaces even */
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+}
+
+.header__logo{
+    /* width: 100px; */
+    height: 30px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon  {
+    margin-right: 10px;
+}
+
+
+.header__input > input {
+    flex: 1;
+    border: none;
+}
+
+.header__inputButton {
+    width: 50px !important; 
+    background-color: #fafafa;
+    border-left: 1px solid black;
+    color: gray;
+}
